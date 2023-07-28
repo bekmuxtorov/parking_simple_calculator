@@ -1,0 +1,25 @@
+Avtomobil avtoturargohi uchun mahsus calculator;
+Avtomabil kirgan va chiqib ketgan vaqtlar kiritiladi;
+Narxlar: 
+    - kirish narxi -> 2$
+    - dastlabki 1 soat -> 3$
+    - ikkinchi soatdan keyingi soatlar -> 4$
+
+1-case:
+    enterece_time = 10:30
+    left_time = 12:31
+    kirgani uchun: 2$
+    1 soat uchun:  3$
+    2 soat uchun:  4$
+    3 soat uchun:  4$
+            Jami: 13$
+
+2-case:
+    enterece_time = 14:29 3 42
+    left_time = 18:11
+    kirgani uchun: 2$
+    1 soat uchun:  3$
+    2 soat uchun:  4$
+    3 soat uchun:  4$
+    4 soat uchun:  4$    
+            Jami: 17$
